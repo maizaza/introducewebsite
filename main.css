@@ -180,3 +180,22 @@
         height: 200px;
       }
   }
+
+  @media (max-width: 600px) {
+
+    .content-container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .content img {
+        margin-top: 10px;
+        width: 250px;
+        height: 250px;
+      }
+
+  }
